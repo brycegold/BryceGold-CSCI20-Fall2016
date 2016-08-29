@@ -19,6 +19,9 @@ int main() {
     cout << "Please enter a noun" << endl;
     cin  >> noun;
     
+    cout << "Please enter a number with no decimals" << endl;
+    cin  >> number;
+    
     cout << "Please enter another noun" << endl;
     cin  >> noun2;
     
@@ -34,8 +37,9 @@ int main() {
     cout << "Please enter a number with a decimal" << endl;
     cin  >> number_with_decimal;
     
+    cout << endl;
     cout << "There once was a " << adjective << " " << noun << " who destroyed a whole town." << endl;
-    cout << "Then one day came a " << noun2 << " who had enough of the " << noun << " and said " << endl;
+    cout << "Then one day came " << number << " " << noun2 << "(s) who had enough of the " << noun << " and said " << endl;
     cout << "'Leave this town you " << insulting_word << insulting_word2 << special_character << ".'" << endl;
     cout << "The " << noun << " then received exactly " << number_with_decimal << " punches to the face and ran away crying.";
 }
