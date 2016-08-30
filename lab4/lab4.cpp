@@ -41,6 +41,6 @@ int main() {
     cout << endl;
     cout << "There once was a " << adjective << " " << noun << " who destroyed a whole town." << endl;
     cout << "Then one day came " << number << " " << noun2 << "(s) who had enough of the " << noun << " and said " << endl;
-    cout << "'Leave this town you " << insulting_word << " " << small_animal << special_character << ".'" << endl;
+    cout << "'Leave this town you " << insulting_word << " " << small_animal << special_character << "'" << endl;
     cout << "The " << noun << " then received exactly " << number_with_decimal << " punches to the face and ran away crying.";
 }
