@@ -7,6 +7,7 @@ int main() {
     string adjective; 
     string noun;
     string noun2;
+    string small_animal;
     string insulting_word;
     string insulting_word2;
     char special_character;
@@ -28,8 +29,8 @@ int main() {
     cout << "Please enter an insulting word" << endl;
     cin  >> insulting_word;
     
-    cout << "Please enter another insulting word" << endl;
-    cin  >> insulting_word2;
+    cout << "Please enter a small animal" << endl;
+    cin  >> small_animal;
     
     cout << "Please insert a special character" << endl;
     cin  >> special_character;
@@ -40,6 +41,6 @@ int main() {
     cout << endl;
     cout << "There once was a " << adjective << " " << noun << " who destroyed a whole town." << endl;
     cout << "Then one day came " << number << " " << noun2 << "(s) who had enough of the " << noun << " and said " << endl;
-    cout << "'Leave this town you " << insulting_word << insulting_word2 << special_character << ".'" << endl;
+    cout << "'Leave this town you " << insulting_word << " " << small_animal << special_character << ".'" << endl;
     cout << "The " << noun << " then received exactly " << number_with_decimal << " punches to the face and ran away crying.";
 }
