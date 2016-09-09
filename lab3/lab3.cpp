@@ -24,9 +24,9 @@ int main() {
     int penny_amount = 0;
     
     // calculation variables
-    double total_dollar_amount = 0;
-    double fee_amount = 0;
-    double grand_total = 0;
+    double total_dollar_amount = 0.0;
+    double fee_amount = 0.0;
+    double grand_total = 0.0;
     
     cout << "Please enter your money." << endl;
     cin  >> total_cent_amount;
@@ -46,8 +46,8 @@ int main() {
     cout << " (" << total_coin_amount << " coins)" << endl;
     
     // calculates the dollar amount, and how much of a fee to subtract
-    total_dollar_amount = total_cent_amount *.01;
-    fee_amount = ceil((total_dollar_amount * .109) * 100) / 100;
+    total_dollar_amount = total_cent_amount * 0.01;
+    fee_amount = ceil((total_dollar_amount * 0.109) * 100) / 100;
     grand_total = total_dollar_amount - fee_amount;
     
     cout << "Total Dollar Amount: $" << total_dollar_amount << endl;
