@@ -54,7 +54,7 @@ int main()
     hunt_chorus("bear");
     obstacle_verse("Sticks");
     
-    // ends the song with a new verse
+    // ends the song with the output of a new verse
     cout << "Uh Oh! \nWhat's that? \nA BEAR!!" << endl;
     cout << "Run back home!" << endl;
 }
