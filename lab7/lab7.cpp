@@ -1,8 +1,19 @@
+/*
+** Bryce Gold
+**
+** 9/19/16
+**
+** This program creates two functions for the song "Going on a Bear Hunt"; 
+** one for the chorus and one for the verse, hunt_chorus and obstacle_verse, 
+** respectively. Then it outputs each several times to complete the song.
+*/
+
 #include <iostream>
 #include <string>
 
 using namespace std;
 
+// function for the chorus; establishes the chorus lyric outputs and parameter "animal"
 void hunt_chorus(string animal)
 {
     cout << "Goin' on a " << animal << " hunt" << endl;
@@ -14,6 +25,7 @@ void hunt_chorus(string animal)
     return;
 }
 
+// function for the verse; establishes the verse lyric outputs and parameter "obstacle"
 void obstacle_verse(string obstacle)
 {
     
@@ -29,6 +41,7 @@ void obstacle_verse(string obstacle)
 
 int main()
 {
+    // outputs each chorus and verse, with the animal/obstacle inserted
     hunt_chorus("lion");
     obstacle_verse("Mud");
     
@@ -41,6 +54,7 @@ int main()
     hunt_chorus("bear");
     obstacle_verse("Sticks");
     
+    // ends the song with a new verse
     cout << "Uh Oh! \nWhat's that? \nA BEAR!!" << endl;
     cout << "Run back home!" << endl;
 }
