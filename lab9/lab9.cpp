@@ -5,7 +5,7 @@
 **
 ** This is the class for converting temperature between Kelvin, Fahrenheit, and
 ** Celsius by using their formulas. It takes in the temperature in one form and
-** then outputs the corresponding other two.
+** then outputs the corresponding other two along with original form.
 */
 
 #include <iostream>
@@ -15,7 +15,7 @@ using namespace std;
 class TemperatureConverter {
     public:
     
-    // functions starting with "set" are the 
+    // functions starting with "set" take in temp and assign it to respective variable, and calculate it into kelvin
     void SetTempFromKelvin(double kelvin)
     {
         kelvin_ = kelvin;
@@ -37,6 +37,8 @@ class TemperatureConverter {
         fahrenheit_ = fahrenheit;
     }
     
+    
+    // functions starting with "get" return the value of the temperature mentioned in their name
     double GetTempFromKelvin()
     {
         return kelvin_;
@@ -56,17 +58,19 @@ class TemperatureConverter {
         return fahrenheit_;
     }
     
-    
+    // default constructor sets kelvin_ to 0
     TemperatureConverter()
     {
         kelvin_ = 0;
     }
     
+    // overloaded constructor that takes in a kelvin value and assigns to variable kelvin_
     TemperatureConverter(double kelvin)
     {
         kelvin_ = kelvin;
     }
     
+    // outputs the temperatures in each of their forms
     void PrintTemperatures()
     {
         cout << "Kelvin: " << GetTempFromKelvin() << endl;
@@ -76,6 +80,8 @@ class TemperatureConverter {
     }
     
     private:
+    
+    // data members used for the conversion
     double kelvin_;
     
     double fahrenheit_;
