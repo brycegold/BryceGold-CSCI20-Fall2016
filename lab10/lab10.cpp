@@ -1,3 +1,11 @@
+/*
+** Bryce Gold
+**
+** 10/3/16
+**
+** This program runs the boolean and logical operators equations from the worksheet.
+** It establishes the variables then runs them through the equations.
+*/
 #include <iostream>
 
 using namespace std;
