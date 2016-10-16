@@ -1,7 +1,7 @@
 /*
 ** Bryce Gold
 **
-** 10/12/16
+** 10/16/16
 **
 ** This program first outputs all the minutes between 1pm and 2:59pm. It then
 ** takes in user start and end time to output the 15 minute intervals between the two.
@@ -20,11 +20,9 @@ int main() {
     int userEndTime = 0;
     
     // loop to print out the minutes between 1pm and 2:59pm
-    while (hour <= 2) {
+    for (hour = 1; hour <=2; ++hour) {
         
-        minute = 0;
-        
-        while (minute <= 59) {
+        for (minute = 0; minute <= 59; ++minute) {
             
             cout << hour << ":";
             
@@ -34,11 +32,8 @@ int main() {
             }
             
             cout << minute << " pm" << endl;
-            
-            ++minute;
         }
-        
-        ++hour;
+    
     }
     
     // messages to receive start and end time
@@ -52,12 +47,10 @@ int main() {
     cout << " " << endl;
     
     // loop to print out the 15 minute intervals between the two user-entered hours
-    while (userStartTime < userEndTime || (userStartTime > userEndTime) && userStartTime <= 12) {
-            
-        minute = 0;
-            
-        while (minute <= 59) {
-                
+    for (userStartTime; userStartTime < userEndTime || (userStartTime > userEndTime) && userStartTime <= 12; ++userStartTime) {
+        
+        for (minute = 0; minute <= 59; minute += 15) {
+        
             cout << userStartTime << ":";
             
             // adds a zero to the front of the minute if it is at or below 9
@@ -66,15 +59,13 @@ int main() {
             }
                 
             cout << minute << endl;
-                
-            minute += 15;
         }
         
         // "if statement" that accounts for rollover from 12 to 1
         if (userStartTime == 12) {
             userStartTime = 0;
         }
-            
-        ++userStartTime;
+    
     }
+    
 }
