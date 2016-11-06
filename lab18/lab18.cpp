@@ -52,7 +52,8 @@ int main() {
         cout << "WARNING: You entered the same name for your first and last names" << endl;
         cout << " " << endl;
     }
-    
+
+    // copies first name to each username string to begin the new usernames
     string username1 = firstName;
     string username2 = firstName;
     string username3 = firstName;
