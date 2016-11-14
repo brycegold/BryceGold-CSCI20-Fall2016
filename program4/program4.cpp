@@ -62,10 +62,12 @@ int main() {
     
     if (!inStudentAnswers.is_open()) {
         cout << "Could not open studentAnswers.txt" << endl;
+        return 1;
     }
     
     if (!inAnswerKey.is_open()) {
         cout << "Could not open answerKey.txt" << endl;
+        return 1;
     }
     
     // stores the answer key into a single array
@@ -169,6 +171,7 @@ int main() {
     
     if(!outEndGrade.is_open()) {
         cout << "Could not open endGrade.txt" << endl;
+        return 1;
     }
     
     // loop outputs the student's name, grade, and incorrect answers to the screen and to the endGrade file
