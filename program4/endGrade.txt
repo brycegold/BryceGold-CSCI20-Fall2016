@@ -1,0 +1,9 @@
+Christian Smith     GRADE: 1.75       WRONG/OMITTED ANSWERS: #1, 2, 3, 4, 6, 7, 8, 10, 11, 12, 13, 14, 17, 18, 19, 20, 21, 
+Paxton    Jones     GRADE: 3.5        WRONG/OMITTED ANSWERS: #1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 17, 20, 21, 
+Abby      Sciuto    GRADE: 5          WRONG/OMITTED ANSWERS: #1, 2, 3, 4, 5, 7, 8, 9, 10, 12, 13, 16, 20, 21, 
+Audrey    Smithson  GRADE: -0.75      WRONG/OMITTED ANSWERS: #1, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 
+Katie     Holmes    GRADE: 2.5        WRONG/OMITTED ANSWERS: #1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 15, 17, 18, 19, 20, 
+Carrie    Grant     GRADE: 8          WRONG/OMITTED ANSWERS: #1, 2, 3, 6, 7, 8, 11, 12, 16, 17, 18, 
+
+Problems more than half of class missed/omitted: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 17, 18, 20, 21, 
+Class Average: 3.33333
