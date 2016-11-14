@@ -62,11 +62,13 @@ int main() {
     
     if (!inStudentAnswers.is_open()) {
         cout << "Could not open studentAnswers.txt" << endl;
+        
         return 1;
     }
     
     if (!inAnswerKey.is_open()) {
         cout << "Could not open answerKey.txt" << endl;
+        
         return 1;
     }
     
@@ -171,6 +173,7 @@ int main() {
     
     if(!outEndGrade.is_open()) {
         cout << "Could not open endGrade.txt" << endl;
+        
         return 1;
     }
     
