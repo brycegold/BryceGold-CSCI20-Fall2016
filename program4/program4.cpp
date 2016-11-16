@@ -57,17 +57,17 @@ int main() {
     ifstream inStudentAnswers;
     ifstream inAnswerKey;
     
-    inStudentAnswers.open("studentAnswers.txt");
-    inAnswerKey.open("answerKey.txt");
+    inStudentAnswers.open("studentanswers.txt");
+    inAnswerKey.open("answerkey.txt");
     
     if (!inStudentAnswers.is_open()) {
-        cout << "Could not open studentAnswers.txt" << endl;
+        cout << "Could not open studentanswers.txt" << endl;
         
         return 1;
     }
     
     if (!inAnswerKey.is_open()) {
-        cout << "Could not open answerKey.txt" << endl;
+        cout << "Could not open answerkey.txt" << endl;
         
         return 1;
     }
