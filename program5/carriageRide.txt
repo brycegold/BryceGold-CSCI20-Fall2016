@@ -1,0 +1,25 @@
+  |********************************************|  
+    NAME makes it to the carriage house.
+    
+    "My, my, what have we here? You're such a
+    young kid. How old are you?" says the
+    driver.
+    
+    NAME answers with AGE.
+    
+    "Well, how nice. As long as you've got the
+    money, I'll take you anywhere you need
+    to go."
+    
+    NAME rides the carriage as far as it can 
+    take them. As NAME goes along they sell 
+    some treasure here and there. They have a 
+    good time travelling. 
+    
+    NAME does, however, feel like they are 
+    being watched no matter where they go. 
+    NAME lives the rest of their life on edge.      
+  |                                            |
+   ********************************************
+   
+    GAME OVER

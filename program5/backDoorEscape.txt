@@ -1,0 +1,8 @@
+  |********************************************|  
+    NAME escapes into the woods and makes 
+    it to the beach.     
+
+    0: Hide in the cave
+    1: Stay on the shore                                 
+  |                                            |
+   ********************************************

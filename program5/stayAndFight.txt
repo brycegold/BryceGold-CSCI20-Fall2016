@@ -1,0 +1,24 @@
+  |********************************************|  
+    NAME looks over and realizes something.
+    The person running to them is their friend
+    PARTNER. NAME is taken aback, but soon
+    regains their stance for PARTNER is not 
+    slowing down.
+    
+    PARTNER attacks and NAME is forced to
+    fight back. The fight lasts but a few
+    minutes before PARTNER runs off as if
+    called away.
+    
+    Before PARTNER leaves, NAME
+    catches a glimpse of their eyes.
+    
+    Bloodshot.
+
+    NAME ventures back into town to rid 
+    themselves of this box.      
+
+    0: Sell the box
+    1: Throw the box in the dumpster                                
+  |                                            |
+   ********************************************

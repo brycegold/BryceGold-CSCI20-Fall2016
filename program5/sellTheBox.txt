@@ -1,0 +1,19 @@
+  |********************************************|  
+    NAME enters the local shop and barters 
+    with the salesperson. 
+    
+    The salesperson asks, "This box is so old, 
+    and you're so young being only AGE years 
+    old. How did you come upon such an 
+    artifact?"
+    
+    The salerperson seems suspicious. NAME
+    says they found it in their grandparents'
+    attic to lower the suspicion. It worked.
+    
+    NAME comes back out thousands of
+    dollars richer.    
+  |                                            |
+   ********************************************
+
+    GAME OVER

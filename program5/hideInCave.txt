@@ -1,0 +1,9 @@
+  |********************************************|  
+    NAME opens the box once more and becomes 
+    consumed with the treasure. NAME lives 
+    the rest of their life in the cave so as 
+    to keep their treasure safe.     
+  |                                            |
+   ********************************************
+
+    GAME OVER

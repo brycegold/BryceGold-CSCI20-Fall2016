@@ -1,0 +1,11 @@
+  |********************************************|  
+    The box lets out a loud screech and 
+    reveals treasure. NAME hears shouting 
+    from outside and a crowd banging on the 
+    door. NAME takes the box and tries to 
+    escape.     
+
+    0: Jump out the window
+    1: Go out the back door
+  |                                            |
+   ********************************************

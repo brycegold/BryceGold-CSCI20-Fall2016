@@ -1,0 +1,8 @@
+  |********************************************|  
+    Someone sees NAME resting on the shore 
+    and runs towards them.    
+
+    0: Stay and fight
+    1: Drop the box and jump into the ocean                                  
+  |                                            |
+   ********************************************

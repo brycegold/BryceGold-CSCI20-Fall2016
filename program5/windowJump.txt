@@ -1,0 +1,10 @@
+  |********************************************|  
+    NAME lands on a water slide and slides 
+    down towards the town square. NAME 
+    feels much better being where others are 
+    around.     
+
+    0: Sell the box
+    1: Catch a carriage to the furthest town                                 
+  |                                            |
+   ********************************************

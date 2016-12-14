@@ -1,0 +1,9 @@
+  |********************************************|  
+    The box lets out a tiny screech as NAME 
+    leaves it in the dumpster. Perhaps someone
+    else will deal with the box, or better yet,
+    it will spend eternity in the junkyard.   
+  |                                            |
+   ********************************************
+
+    GAME OVER
