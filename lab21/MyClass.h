@@ -13,7 +13,7 @@ class MyClass {
    * Constructor
    * Initialize our member variable num_ to 0
    */
-  inline MyClass();
+  MyClass();
   /*
    * Output our member variable using cout
    */
