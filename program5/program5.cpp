@@ -27,7 +27,15 @@ class User {
         void setUserAge(string age);
         string getUserName();
         string getUserAge();
+        User();
 };
+
+User::User() {
+    userName = " ";
+    userAge = "0";
+    
+    return;
+}
 
 void User::setUserName(string name) {
     userName = name;
